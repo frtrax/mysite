@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+
+.valorant{
+    color: white;
+}
+
+.valorant h2{
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight:bold;
+}
+
+.valorant h3{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.fin{
+    font-family: 'Yatra One', cursive;
+}

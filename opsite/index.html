@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Nag+Mundari:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Flow+Rounded&display=swap" rel="stylesheet">
+  <title>Trax</title>
+</head>
+<body>
+  <div class="ecran">
+    <div class="entry">
+      <h1>Bienvenue</h1>
+      <p>"La véritable puissance réside dans l'ombre, là où les légendes se taisent et où les esprits s'unissent"</p>
+      <hr style="margin-top: 20px;">
+      <div class="title">
+        <img src="media/mbebf.png" alt="Présentation">
+      </div>
+    </div>
+  </div>
+
+  <div class="vision-page">
+    <h1>Vision</h1>
+    <p>Bonjour, je suis <h3>Trax</h3></p> <p>et j'ai 17 ans. Je suis le fondateur d'une entreprise qui vise à éclairer les gens sur le développement du monde et à expliquer comment en tirer le meilleur parti.<br><br>
+        Dans la section "Vision" de mon site, vous trouverez plusieurs œuvres enrichissantes que j'ai écrites. Elles contiennent des conseils basés sur mes observations de la vie et mes réflexions sur le monde qui nous entoure.<br><br>
+        Si vous découvrez mon entreprise pour la première fois, veuillez noter que ce que vous trouverez dans la version gratuite est limité. Cependant, il est toujours important de tirer le meilleur parti de ce qui vous est offert. Je vous invite donc à visiter la section "Vision" pour en apprendre davantage.
+        N'hésitez pas à explorer et à profiter au maximum de ces informations précieuses.
+        <br> <br>Cordialement, <h3>Trax</h3> <p><br>bonne lecture.</p>
+    <div class="quote">
+      <q>La sagesse réside dans l'ouverture de nos yeux sur le monde, la compréhension de son développement et l'exploitation de ses opportunités pour en tirer les meilleurs bénéfices. Chaque observation, chaque réflexion, est une pierre précieuse qui enrichit notre vision du monde et nourrit notre croissance personnelle. Alors, soyons curieux, explorons les horizons qui s'offrent à nous et utilisons avec sagesse les connaissances qui nous sont offertes. Car c'est dans cette quête constante de savoir que se trouve la clé de notre épanouissement et de notre réussite.</q>
+      <br><h3>Trax</h3></div>
+    <a class="link-button" href="projet/index.html">Porte des Possibilités</a>
+  </div>
+
+
+  
+  <script>
+    const visionButton = document.querySelector('.link-button');
+    const ecran = document.querySelector('.ecran');
+
+    visionButton.addEventListener('click', function(e) {
+      e.preventDefault();
+      ecran.classList.add('out');
+      setTimeout(function() {
+        window.location.href = visionButton.href;
+      }, 500);
+    });
+  </script>
+</body>
+</html>
